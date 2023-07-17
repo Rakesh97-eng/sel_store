@@ -1,0 +1,32 @@
+.head_container{
+    display: flex;
+    background-color: rgb(16, 96, 91);
+    color: bisque;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    height: 50px;
+    width: 99vw;
+}
+
+.head_list{
+    display: flex;
+    justify-content:space-around;
+    width: 50%;
+}
+
+.head_list>div  {
+    cursor: pointer;
+    height: 25px;
+}
+
+@media(max-width:500px){
+    .head_container{
+        display: none;
+    }
+    
+}
+/* 
+.head_list>div:hover{
+    border: 2px solid rgb(96, 96, 83);
+} */
