@@ -12,8 +12,13 @@
     border-radius: 5px;
     flex-wrap:wrap;
     transition: transform .4s; 
+    animation: cardmove 10s infinite;
+    position: relative;
 }
-
+/* @keyframes cardmove {
+    from {left:0px}
+    to {left:50px}
+} */
 .card_container:hover{
     transform: scale(1.1);
     width: 250;
