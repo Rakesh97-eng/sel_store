@@ -1,3 +1,4 @@
+import Map from '../map/map'
 import './footer.css'
 export const Footer = ()=>{
     return (
@@ -15,7 +16,9 @@ export const Footer = ()=>{
                <p>ph:no - +000 1111 222</p>
               <p> Location : "Abcded"</p>
             </div>
+            <Map/>
          </div>
+        
         </>
     )
 }

@@ -14,13 +14,10 @@ const Procomp = React.lazy(()=>import('../component/professional/professional'))
 function Home(){
     return(
         <>
-        <Header/>
         <Carousel/>
         <Featured/>
         <Parallax/>
         <BestProducts/>
-        <Procomp/>
-        <Footer/>
         </>
     )
 }

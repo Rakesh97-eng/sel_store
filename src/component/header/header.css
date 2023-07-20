@@ -22,6 +22,10 @@
     width: 50%;
 }
 
+.head_list>Link{
+    color: bisque;
+}
+
 .head_list>div  {
     cursor: pointer;
     height: 25px;
